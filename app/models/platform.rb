@@ -4,4 +4,8 @@ class Platform < ApplicationRecord
 
   validates :platform_name, :user_id, presence: true
 
+  def check_platform?
+    self.platform_name.present?
+  end
+
 end

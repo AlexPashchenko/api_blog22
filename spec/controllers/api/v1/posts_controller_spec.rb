@@ -1,5 +1,6 @@
 require 'rails_helper'
 require 'spec_helper'
+require 'factory_girl'
 
 RSpec.describe Api::V1::PostsController, type: :controller do
 

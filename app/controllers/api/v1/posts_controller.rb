@@ -1,9 +1,10 @@
 module Api
   module V1
     class  PostsController < ApplicationController
-      respond_to :json
+      before_action :authorized!, except: [:show, :index]
       before_action :set_post, only: [:show, :update, :destroy]
       before_action :set_approved_post, only: [ :update, :destroy]
+      respond_to :json
 
       def index
         @q=Post.approved.ransack(params[:q])
@@ -12,18 +13,17 @@ module Api
       end
 
       def show
-        if @post.status=="approved"
-        @comments = @post.comments
-        render json: [@post , @comments]
+        if @post.status.approved?
+          @comments = @post.comments
+          render json: [@post , @comments]
         else
           render json: {}, status: :not_found
-          end
         end
-
+      end
 
       def create
         @post = Post.new(post_params)
-        @post.user_id=current_user.id
+        @post.user_id=@current_user.id
 
         if @post.save
           render json: @post, status: :created
@@ -50,6 +50,8 @@ module Api
       end
 
       private
+
+
       def set_approved_post
         @post = Post.approved.find(params[:id])
       end

@@ -7,11 +7,10 @@ Rails.application.routes.draw do
       resources :posts, only: [:index, :create, :show, :update, :destroy]  do
         resources :comments, only: [:index, :create]
       end
-      resources :users, only: [] do
+      resources :users, only: [:show, :create, :update, :destroy] do
         collection do
           post :sign_in
-          post :sign_out
-          post :sign_up
+          delete :sign_out
         end
       end
     end

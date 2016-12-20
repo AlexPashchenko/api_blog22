@@ -1,23 +1,22 @@
 require "application_responder"
 
-class ApplicationController < ActionController::API
+class ApplicationController < ActionController::Base
   self.responder = ApplicationResponder
   respond_to :json
+  protect_from_forgery with: :null_session
   include ActionController::MimeResponds
   include CanCan::ControllerAdditions
+  include ActionController::HttpAuthentication::Token::ControllerMethods
 
-  def authenticate_user!
-
-  end
-  def current_user
-    @user ||= User.find(params[:id])
-  end
-  def authenticate!
-    if current_user.blank?
-      render json: {error: 'Unauthorized user!'}
+  def authorized!
+    unless Devise.exists?(params[:token]).try(:user)
+      render json: { errors: "Not authenticated" }, status: :unauthorized
     end
-    end
-
-
   end
+
+  #how to set current_user????
+
+end
+
+
 

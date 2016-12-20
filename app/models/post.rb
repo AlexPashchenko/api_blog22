@@ -1,7 +1,7 @@
 class Post < ApplicationRecord
   extend Enumerize
 
-  has_many :comments
+  has_many :comments, dependent: :destroy
   belongs_to :user, optional: true
   belongs_to :category, optional: true
   scope :approved, -> {where(status: 'approved')}

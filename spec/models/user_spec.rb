@@ -5,6 +5,7 @@ RSpec.describe User, type: :model do
     it { should have_many(:posts) }
     it { should have_many(:comments) }
     it { should have_many(:platforms) }
+    it { should have_many(:devises) }
 
   end
   describe 'Validations' do
@@ -15,9 +16,7 @@ RSpec.describe User, type: :model do
     it { should validate_presence_of(:role) }
     it { should validate_presence_of(:password) }
   end
-      it "has a valid factory" do
-        expect(create(:user)).to be_valid
-      end
+
 
 
 end

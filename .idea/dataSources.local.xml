@@ -2,35 +2,19 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Rails shoto: default" uuid="1193895d-97a8-48b4-99ec-230705273346">
-      <database-info product="PostgreSQL" version="9.3.15" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>alex</user-name>
       <user-password>dfdbdfdddfcfdfd8</user-password>
       <resolve-scope>api_blog:alex,public</resolve-scope>
     </data-source>
     <data-source name="Rails shoto: test" uuid="1efca0a7-0775-408a-b2f5-a9a95ac9fe0c">
-      <database-info product="PostgreSQL" version="9.3.15" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>alex</user-name>
       <user-password>dfdbdfdddfcfdfd8</user-password>
     </data-source>
     <data-source name="Rails shoto: production" uuid="26fd214f-08e5-47d4-a10d-322125c3dc14">
-      <database-info product="PostgreSQL" version="9.3.15" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>alex</user-name>
       <user-password>dfdbdfdddfcfdfd8</user-password>
     </data-source>
     <data-source name="Rails shoto: development" uuid="2a3c6531-7da4-4439-9290-3806caac7c70">
-      <database-info product="PostgreSQL" version="9.3.15" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>alex</user-name>
       <user-password>dfdbdfdddfcfdfd8</user-password>
       <resolve-scope>api_blog:alex,public</resolve-scope>

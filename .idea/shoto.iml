@@ -125,15 +125,18 @@
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v5.0.0.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v5.0.0.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v5.0.0.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="active_model_serializers (v0.10.3@95f832, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activejob (v5.0.0.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v5.0.0.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v5.0.0.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v5.0.0.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v7.1.4, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.11, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.13.6, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v9.0.6, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cancancan (v1.15.0, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="case_transform (v0.2, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.2.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
@@ -142,6 +145,7 @@
     <orderEntry type="library" scope="PROVIDED" name="database_cleaner (v1.5.3, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="email_validator (v1.6.0, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="enumerize (v2.0.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
@@ -153,6 +157,7 @@
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.6.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.2.1, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jsonapi (v0.1.1.beta2, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.0.8, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.3, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.4, RVM: ruby-2.3.0 [api_blog]) [gem]" level="application" />

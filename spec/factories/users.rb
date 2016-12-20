@@ -7,7 +7,7 @@ FactoryGirl.define do
     f.email{Faker::Internet.email }
     f.login {Faker::Name.name}
     f.age { Faker::Number.between(1, 100)}
-    f.password{Faker::Internet.password(6) }
+    f.password{123456 }
 
   end
 end
